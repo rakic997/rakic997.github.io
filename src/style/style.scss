@@ -979,7 +979,7 @@ p {
         transition: 0.2s all;
     }
 
-    >svg {
+    svg {
         position: absolute;
         top: 30px;
         right: 50px;
@@ -1064,6 +1064,13 @@ p {
 
         @include mobile {
             padding: 25px;
+        }
+
+        > span {
+            color: #ededed;
+            text-transform: uppercase;
+            opacity: 0.4;
+            font-size: 13px;
         }
 
         h6 {
