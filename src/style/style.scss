@@ -979,6 +979,18 @@ p {
         transition: 0.2s all;
     }
 
+    a {
+        display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 400px;
+    height: 320px;
+    }
+
     svg {
         position: absolute;
         top: 30px;
