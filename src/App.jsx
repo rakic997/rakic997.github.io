@@ -186,7 +186,7 @@ function App() {
         <div className='container'>
 
           <div className='project-title'>
-            <span>coming soon</span>
+            <span>More coming soon</span>
             <h2>Projects showcase</h2>
             <p>I'm still working on projects. They should show up here within a few days.</p>
           </div>
@@ -203,26 +203,26 @@ function App() {
               <div className='project-content'>
                 <span>In progress</span>
                 <h6>Scala</h6>
-                <p>Minimal and modern webshop built using Sass, Typescript, and React.</p>
+                <p>Modern webshop built using Sass, Typescript, and React.</p>
               </div>
             </a>
           </div>
 
           <div className='project'>
-            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-              <title />
-              <g data-name="Layer 2" id="Layer_2">
-                <path d="M1,16A15,15,0,1,1,16,31,15,15,0,0,1,1,16Zm28,0A13,13,0,1,0,16,29,13,13,0,0,0,29,16Z" />
-                <path d="M12.13,21.59,17.71,16l-5.58-5.59a1,1,0,0,1,0-1.41h0a1,1,0,0,1,1.41,0l6.36,6.36a.91.91,0,0,1,0,1.28L13.54,23a1,1,0,0,1-1.41,0h0A1,1,0,0,1,12.13,21.59Z" />
-              </g>
-            </svg>
-            <div className='project-content'>
-              <span>Coming soon</span>
-              <h6>Autocomplete</h6>
-              <p>Autocomplete challange using Tailwind, Typescript, and React.</p>
-            </div>
+            <a href="https://github.com/rakic997/Autocomplete" target="_blank">
+              <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <title />
+                <g data-name="Layer 2" id="Layer_2">
+                  <path d="M1,16A15,15,0,1,1,16,31,15,15,0,0,1,1,16Zm28,0A13,13,0,1,0,16,29,13,13,0,0,0,29,16Z" />
+                  <path d="M12.13,21.59,17.71,16l-5.58-5.59a1,1,0,0,1,0-1.41h0a1,1,0,0,1,1.41,0l6.36,6.36a.91.91,0,0,1,0,1.28L13.54,23a1,1,0,0,1-1.41,0h0A1,1,0,0,1,12.13,21.59Z" />
+                </g>
+              </svg>
+              <div className='project-content'>
+                <h6>Autocomplete</h6>
+                <p>Autocomplete challange using CSS, Typescript, and React.</p>
+              </div>
+            </a>
           </div>
-
         </div>
 
 
@@ -232,7 +232,7 @@ function App() {
           <div className="empty"></div>
         </div>
 
-      </section>
+      </section >
 
       <section id="contact" className='contact'>
         <div className="square square-5 float-y"></div>
@@ -309,7 +309,7 @@ function App() {
         </div>
       </footer>
 
-    </div>
+    </div >
   )
 }
 
