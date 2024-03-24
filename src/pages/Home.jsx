@@ -11,6 +11,29 @@ const Home = () => {
         setToggleSidebar(prevSidebar => !prevSidebar);
     }
 
+    
+    function scrollToProjects(event) {
+        event.preventDefault();
+        const projectsSection = document.getElementById('projects');
+        if (projectsSection) {
+            window.scrollTo({
+                top: projectsSection.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    }
+
+    function scrollToContact(event) {
+        event.preventDefault();
+        const contactSection = document.getElementById('contact');
+        if (contactSection) {
+            window.scrollTo({
+                top: contactSection.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    }
+
     return (
         <div className='page-content'>
 
@@ -117,8 +140,8 @@ const Home = () => {
                 <div className='container'>
                     <div className="home-text">
                         <h1 className="headline">Hello, I'm David, <br />creative frontend <br /> developer</h1>
-                        <a href="#projects">Projects</a>
-                        <a href="#contact">Contact</a>
+                        <button onClick={scrollToProjects}>Projects</button>
+                        <button onClick={scrollToContact}>Contact</button>
                     </div>
                 </div>
 

@@ -727,7 +727,7 @@ p {
             }
         }
 
-        a {
+        button {
             display: inline-block;
             padding: 22px 50px;
             background-color: $primary;
@@ -738,6 +738,8 @@ p {
             -webkit-box-shadow: 0 22px 42px -21px $primary;
             box-shadow: 0 22px 42px -21px $primary;
             margin-top: 25px;
+            outline: none;
+            border: none;
 
             @include mobile {
                 margin-top: 15px;
