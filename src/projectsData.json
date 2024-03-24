@@ -1,0 +1,29 @@
+[
+    { 
+      "id": 1, 
+      "title": "Quantum Workflow",
+      "tech-stack": "CSS/SASS, JavaScript, React",
+      "link": "https://quantumworkflow.com/",
+      "image": "/t.png",
+      "company": "Two dots media agency",
+      "description": "Quantum Workflow is similar to Upwork, but it's got its own unique feature: there's a project manager who is middle layer between clients and freelancers. I was responsible for both the landing page and the web application. The landing page was built using HTML, CSS, and JavaScript, while the web app was developed with React.\n\nMy job was to take Adobe XD designs and turn them into fully functional code, making sure everything looked good on different devices and ran smoothly. Although I mostly worked on the initial development phase, there have been some updates later on."
+    },
+    { 
+      "id": 2, 
+      "title": "Four Seasons", 
+      "tech-stack": "CSS, JavaScript",
+      "link": "https://fourseasons.hr/",
+      "image": "/t2.png",
+      "company": "Mania marketing agency",
+      "description": "Four Seasons is travel-related company, allowing users to book accommodations. As a contractor for a period of about 4 months, my role was converting Adobe XD designs into functional webites (including the one you are currently viewing) using HTML, CSS/SCSS and JavaScript. While I played a part in the development phase, there have been some changes and updates made after I finished my work on the project." 
+    },
+    { 
+      "id": 3, 
+      "title": "Curoflow",
+      "tech-stack": "SASS, React",
+      "link": "https://curoflow.se/en", 
+      "image": "/t3.png",
+      "company": "Novamedia agency",
+      "description": "Curoflow is a platform that enable healthcare providers to connect with their patients. I worked a year and a half on this project as part of smaller team. My responsibility was making user interfaces based on provided designs, ensuring compatibility across different browsers and screens. In addition to this, I worked on integrating functionalities using APIs. The project was developed using Node.js, Express, MongoDB for backend, and React with SASS for frontend."
+    }
+  ]
