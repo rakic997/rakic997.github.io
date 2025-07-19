@@ -47,8 +47,7 @@ const ProjectDetails = () => {
               </div>
             </div>
             <div className='project-image'>
-              <img src={`${import.meta.env.BASE_URL}${project.image}`} />
-
+              <img src={project.image} />
             </div>
 
           </div>
