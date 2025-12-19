@@ -247,19 +247,16 @@ const Home = () => {
                         <div className="about-text">
                             <h6>About me</h6>
                             <h2>Think out of the box</h2>
-                            <p className='about-long'>My name is David. I am a self-taught frontend developer living in Bosnia and Herzegovina,
-                                passionate about creating great experiences on the web. I love combining creativity with
-                                technical skills to design and build awesome things. Imagine this: bringing ideas
-                                to life and turning lines of code into visual perfection - that’s me.
+                            <p className='about-long'>I’m David, a self-taught frontend engineer based in Bosnia and Herzegovina,
+                                with several years of experience building web and mobile products for real users.
+                                I’ve worked on everything from simple websites to complex applications using React, Next.js,
+                                TypeScript, React Native, and recently expanded further into mobile development.
 
 
                                 <br /> <br />
-
-                                I’ve always been driven by curiosity and creativity, constantly learning and pushing myself to improve.
-                                So, I'm not just about pixels and code - I'm all about giving my soul into every project.
-                                I work with HTML, SCSS, JavaScript, TypeScript, React, Next.js, React Native, Node.js, MongoDB - but to me, they’re just that: tools. What really matters is the experience we
-                                create with them. And I love to create magnificent experiences.
-
+                                I’m currently building Eunoia, a personal growth and wellbeing app that brings together my interests in technology, psychology, and philosophy.
+                                It’s a product-first project where I handle both engineering and UX decisions.
+                                I care deeply about how products feel to use — tools are just tools, but great experiences are what last.
                             </p>
                             <p className='about-short'>
                                 My name is David. I am a self-taught frontend developer living in Bosnia and Herzegovina.
@@ -271,7 +268,7 @@ const Home = () => {
                             <div className='fun-facts'>
                                 <div className='fact'>
                                     <h6>
-                                        <span>+5</span>
+                                        <span>+6</span>
                                         <br />
                                         of experience
                                     </h6>
