@@ -344,7 +344,11 @@ const Home = () => {
                             </svg>
 
                             <div className='mobile-projects-list'>
-                                {projectsData.map((p) => (
+                                 {[...projectsData].sort((a, b) => {
+                                    // Sort by y coordinate first (top to bottom), then by x (left to right)
+                                    if (a.y !== b.y) return a.y - b.y;
+                                    return a.x - b.x;
+                                }).map((p) => (
 
                                     <div
                                         key={p.id}
